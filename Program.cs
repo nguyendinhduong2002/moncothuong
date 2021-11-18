@@ -11,10 +11,10 @@ namespace QLnhanvien
             List<NhanVien> DSNV = new List<NhanVien>();
             List<KhachHang> DSKH = new List<KhachHang>();
 
-            NhanVien nv1 = new NhanVien("NV01", "Văn Toàn", "Nam", "10/02/2001", "Cao dang");
-            NhanVien nv2 = new NhanVien("NV02", "Quang Tèo", "Nu", "03/11/2003", "Dai hoc");
-            KhachHang kh1 = new KhachHang("KH01", "Nga Nguyễn", "Nam", "11/06/1987", "VipPro");
-            KhachHang kh2 = new KhachHang("KH02", "Như Ngọc", "Nu", "07/09/2009", "ThanhVien");
+            NhanVien nv1 = new NhanVien("NV01", "Tường Duyên", "Nam", "01/12/2002", "Cao dang");
+            NhanVien nv2 = new NhanVien("NV02", "Quang Tèo", "Nu", "14/01/2002", "Dai hoc");
+            KhachHang kh1 = new KhachHang("KH01", "Nga Nguyễn", "Nam", "25/12/2002", "VipPro");
+            KhachHang kh2 = new KhachHang("KH02", "Như Ngọc", "Nu", "11/05/2002", "ThanhVien");
                 DSNV.Add(nv1);
                 DSNV.Add(nv2);
                 DSKH.Add(kh1);
